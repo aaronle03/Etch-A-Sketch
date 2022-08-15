@@ -1,0 +1,12 @@
+.container {
+  display: grid;
+  background-color: grey;
+  height:600px;
+  width:600px;
+  outline: 10px solid black;
+}
+
+div {
+  background-color: white;
+  outline: 1px solid black;
+}

@@ -6,7 +6,51 @@
   outline: 10px solid black;
 }
 
-div {
+.grid-square {
   background-color: white;
   outline: 1px solid black;
+}
+
+.button-container {
+  display:flex;
+  height: 600px;
+  width: 300px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px
+}
+
+#reset-btn, #rainbow, #eraser, #black-btn, #custom-hex {
+  height: 100px;
+  width: 100px;
+  font-size: 15px;
+  text-align: center;
+  margin-left: center;
+  margin-right: center;
+  border-radius: 10px;
+  cursor: pointer;
+  border-color: white;
+  font-family: inherit;
+}
+
+.main {
+  display:flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.header {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+}
+
+body {
+  background-image: url("./background-photo.jpg");
+  background-size: cover;
 }
